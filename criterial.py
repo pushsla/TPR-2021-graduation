@@ -43,13 +43,13 @@ class Criterial:
         """ Сохранение шаблонов на диск """
         filename = filename if filename else self.filename
         with open(filename, "w") as write_file:
-             json.dump(self.menu_list, write_file)
+            json.dump(self.menu_list, write_file)
 
     def change(self, id=0, newdata={}):
         """ Изменение существующего шаблона """
         for i, v in enumerate(self.menu_list):
             if v['id'] == id:
-               self.menu_list[i] = newdata
+                self.menu_list[i] = newdata
 
     def append(self, newdata):
         """ Добавление нового шаблона """
@@ -99,8 +99,8 @@ if __name__ == "__main__":
     c1 = Criterial()
     c1.append(exmen)
     c1.append(exmen)
-    c1.save()
+    c1.save('data_file.json')
 
     c2 = Criterial()
-    c2.load()
+    c2.load('data_file.json')
     print(c2.menu_list)
