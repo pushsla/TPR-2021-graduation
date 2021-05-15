@@ -1,0 +1,36 @@
+data = {
+        "id": 1,
+        "name": "for bodybuilders" ,
+        "general": {
+            "eats_per_day": 4,
+            "no_eats_day": 1,
+            "all_products": ['milk', 'meat', 'banana', 'apple'],
+            "vitamins": {
+                "C": 20,
+                "B6": 12,
+                "E": 10
+            }
+        },
+        "menue": {
+            "Monday": {
+                "breakfast": {
+                    "eat": {
+                        "products": ['pasta', 'chicken'],
+                        "recipe": "ex"
+                    }
+                },
+                "dinner": {
+                    "eat": {
+                        "products": ['milk', 'rice'],
+                        "recipe": "ex2"
+                    }
+                },
+                "supper": {
+                    "eat": {
+                        "products": ['potato', 'fish'],
+                        "recipe": "ex3"
+                    }
+                }
+            }
+        }
+    }
