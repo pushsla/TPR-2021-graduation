@@ -1,6 +1,7 @@
 import json
 
-class Criterial(object):
+
+class Criterial:
     """
     Модуль решения задачи многокритериальной оптимизации.
     Задача: Требуется из списка шаблонов меню выбрать, используя параметры клиента, несколько оптимальных вариантов шаблонов меню.
@@ -29,33 +30,40 @@ class Criterial(object):
 
     def __init__(self):
         """Constructor"""
-        self.menu_list = {'templates': []}
+        self.menu_list = []
+        self.filename = ''
 
-    def load(self):
+    def load(self, filename):
         """ Загрузка списка шаблонов меню в формате JSON (см data_specification.md) с диска """
-        with open("data_file.txt", "r") as read_file:
-            self.menu_list = json.loads(read_file)
+        self.filename = filename
+        with open(filename, "r") as read_file:
+            self.menu_list = json.load(read_file)
 
-    def save(self):
+    def save(self, filename=None):
         """ Сохранение шаблонов на диск """
-        with open("data_file.txt", "w") as write_file:
-             json.dumps(self.menu_list, write_file)
+        filename = filename if filename else self.filename
+        with open(filename, "w") as write_file:
+             json.dump(self.menu_list, write_file)
 
-    def change(self, id=0, newdata=''):
+    def change(self, id=0, newdata={}):
         """ Изменение существующего шаблона """
-        self.menu_list[id] = newdata
+        for i, v in enumerate(self.menu_list):
+            if v['id'] == id:
+               self.menu_list[i] = newdata
 
     def append(self, newdata):
         """ Добавление нового шаблона """
-        self.menu_list.append(newdata)
+        if not list(filter(lambda x: x['id'] == newdata['id'], self.menu_list)):
+            self.menu_list.append(newdata)
 
 
 if __name__ == "__main__":
     exmen = {
         "id": 1,
-        "name": "for bodybuilders" ,
+        "name": "for bodybuilders",
         "general": {
             "eats_per_day": 4,
+            "type": "gain",
             "no_eats_day": 1,
             "all_products": ['milk', 'meat', 'banana', 'apple'],
             "vitamins": {
@@ -87,3 +95,12 @@ if __name__ == "__main__":
             }
         }
     }
+
+    c1 = Criterial()
+    c1.append(exmen)
+    c1.append(exmen)
+    c1.save()
+
+    c2 = Criterial()
+    c2.load()
+    print(c2.menu_list)
