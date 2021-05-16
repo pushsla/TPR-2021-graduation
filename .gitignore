@@ -4,4 +4,4 @@
 *.exe
 node_modules
 venv
-data_file.json
+criterial/data_file.json
