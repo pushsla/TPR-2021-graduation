@@ -3,7 +3,7 @@ from typing import Any, Tuple, Union
 
 import numpy as np
 
-from Loss import LinearMSE as LG
+from .Loss import LinearMSE as LG
 
 np.seterr(all='raise')
 

@@ -3,7 +3,7 @@ from typing import Any, Dict, Tuple, Union, List
 
 import numpy as np
 
-from Optimization import MomentGrad as OL
+from .Optimization import Linear as OL
 
 np.seterr(all='raise')
 
@@ -19,6 +19,13 @@ class LinearRegression(Regression):
 
     def __init__(self) -> None:
         self._fitted = False
+
+    def dump(self, filename: str):
+        self._weights.dump(filename)
+
+    def load(self, filename: str):
+        self._weights = np.load(filename, allow_pickle=True)
+        self._fitted = True
 
     def fit(self,
             x: np.matrix,
@@ -73,6 +80,12 @@ class LinearRegression(Regression):
             raise e
         finally:
             return fit_history
+
+    def predict(self, x: np.matrix):
+        if not self._fitted:
+            raise Exception("Model is not trained! Run fit() first!")
+
+        return x*self._weights[:-1] + self._weights[-1]
 
     def _one_train(self,
                    x: np.matrix,

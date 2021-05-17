@@ -4,3 +4,7 @@
 *.exe
 node_modules
 venv
+*__pycache__
+*.json
+*.np
+*.csv
