@@ -11,4 +11,8 @@ if __name__ == "__main__":
 
     regressor = LinearRegression()
     regressor.fit(data_x, data_y, MomentGrad(lossObj=LinearMSE()))
+
+    for i in range(10):
+        print(data_y[i], regressor.predict(data_x[i]))
+
     regressor.dump('regression_caloria_dump.np')

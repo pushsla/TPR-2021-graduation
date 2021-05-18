@@ -15,4 +15,4 @@ if __name__ == "__main__":
     for i in range(10):
         print(data_y[i], regressor.predict(data_x[i]))
 
-    regressor.dump('amino_caloria_dump.np')
+    regressor.dump('regression_amino_dump.np')
