@@ -6,7 +6,6 @@
 * name: string название
 * general: object основные параметры
     * eats_per_day: int число приемов пищи в день
-    * type: string enum тип цели поставленной клиентом (loss, gain, health)
     * no_eats_day: int число разгрузочных дней
     * all_products: list список всех наименований
     * vitamins: object содержание микроэлементов
@@ -16,7 +15,7 @@
         * [Object example] day
             * breakfast: object OR NONE прием пищи
                 * [Object example] eat
-                    * products: list список наименований
+                    * procucts: list список наименований
                     * dishes: list of object список блюд
                         * [Object example] dish
                             * products: list писок наименований
