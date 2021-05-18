@@ -58,6 +58,11 @@
     },
     "menu": {
       "Monday": {
+        "calories": 3553,
+        "proteins": 193,
+        "fats": 128,
+        "carbohydrates": 482,
+        "weight": 1389,
         "breakfast": {
           "eat": {
             "products": [
@@ -105,6 +110,11 @@
         }
       },
       "Tuesday": {
+        "calories": 3766,
+        "proteins": 201,
+        "fats": 103,
+        "carbohydrates": 528,
+        "weight": 1206,
         "breakfast": {
           "eat": {
             "products": [
@@ -152,6 +162,11 @@
         }
       },
       "Wednesday": {
+        "calories": 3445,
+        "proteins": 162,
+        "fats": 108,
+        "carbohydrates": 407,
+        "weight": 955,
         "breakfast": {
           "eat": {
             "products": [
@@ -201,6 +216,11 @@
         }
       },
       "Thursday": {
+        "calories": 3322,
+        "proteins": 166,
+        "fats": 117,
+        "carbohydrates": 415,
+        "weight": 1008,
         "breakfast": {
           "eat": {
             "products": [
@@ -250,6 +270,11 @@
         }
       },
       "Friday": {
+        "calories": 3413,
+        "proteins": 170,
+        "fats": 121,
+        "carbohydrates": 405,
+        "weight": 990,
         "breakfast": {
           "eat": {
             "products": [
@@ -299,6 +324,11 @@
         }
       },
       "Saturday": {
+        "calories": 3707,
+        "proteins": 167,
+        "fats": 124,
+        "carbohydrates": 482,
+        "weight": 1201,
         "breakfast": {
           "eat": {
             "products": [
@@ -348,6 +378,11 @@
         }
       },
       "Sunday": {
+        "calories": 3116,
+        "proteins": 163,
+        "fats": 122,
+        "carbohydrates": 426,
+        "weight": 845,
         "breakfast": {
           "eat": {
             "products": [
@@ -438,6 +473,11 @@
     },
     "menu": {
       "Monday": {
+        "calories": 2596,
+        "proteins": 121,
+        "fats": 90,
+        "carbohydrates": 350,
+        "weight": 832,
         "breakfast": {
           "eat": {
             "products": [
@@ -476,6 +516,11 @@
         }
       },
       "Tuesday": {
+        "calories": 2577,
+        "proteins": 117,
+        "fats": 85,
+        "carbohydrates": 304,
+        "weight": 876,
         "breakfast": {
           "eat": {
             "products": [
@@ -514,6 +559,11 @@
         }
       },
       "Wednesday": {
+        "calories": 2808,
+        "proteins": 123,
+        "fats": 92,
+        "carbohydrates": 362,
+        "weight": 1002,
         "breakfast": {
           "eat": {
             "products": [
@@ -550,6 +600,11 @@
         }
       },
       "Thursday": {
+        "calories": 2728,
+        "proteins": 123,
+        "fats": 91,
+        "carbohydrates": 355,
+        "weight": 809,
         "breakfast": {
           "eat": {
             "products": [
@@ -589,6 +644,11 @@
         }
       },
       "Friday": {
+        "calories": 2761,
+        "proteins": 126,
+        "fats": 89,
+        "carbohydrates": 366,
+        "weight": 823,
         "breakfast": {
           "eat": {
             "products": [
@@ -628,6 +688,11 @@
         }
       },
       "Saturday": {
+        "calories": 2727,
+        "proteins": 125,
+        "fats": 90,
+        "carbohydrates": 354,
+        "weight": 821,
         "breakfast": {
           "eat": {
             "products": [
@@ -668,6 +733,11 @@
         }
       },
       "Sunday": {
+        "calories": 2627,
+        "proteins": 115,
+        "fats": 80,
+        "carbohydrates": 344,
+        "weight": 801,
         "breakfast": {
           "eat": {
             "products": [
@@ -750,6 +820,11 @@
     },
     "menu": {
       "Monday": {
+        "calories": 2073,
+        "proteins": 124,
+        "fats": 91,
+        "carbohydrates": 189,
+        "weight": 765,
         "breakfast": {
           "eat": {
             "products": [
@@ -787,6 +862,11 @@
         }
       },
       "Tuesday": {
+        "calories": 2037,
+        "proteins": 142,
+        "fats": 87,
+        "carbohydrates": 198,
+        "weight": 756,
         "breakfast": {
           "eat": {
             "products": [
@@ -825,6 +905,11 @@
         }
       },
       "Wednesday": {
+        "calories": 2110,
+        "proteins": 127,
+        "fats": 93,
+        "carbohydrates": 193,
+        "weight": 811,
         "breakfast": {
           "eat": {
             "products": [
@@ -856,6 +941,11 @@
         }
       },
       "Thursday": {
+        "calories": 2010,
+        "proteins": 107,
+        "fats": 90,
+        "carbohydrates": 130,
+        "weight": 783,
         "breakfast": {
           "eat": {
             "products": [
@@ -894,6 +984,11 @@
         }
       },
       "Friday": {
+        "calories": 2506,
+        "proteins": 150,
+        "fats": 110,
+        "carbohydrates": 229,
+        "weight": 968,
         "breakfast": {
           "eat": {
             "products": [
@@ -932,6 +1027,11 @@
         }
       },
       "Saturday": {
+        "calories": 2344,
+        "proteins": 141,
+        "fats": 103,
+        "carbohydrates": 214,
+        "weight": 868,
         "breakfast": {
           "eat": {
             "products": [
@@ -972,6 +1072,11 @@
         }
       },
       "Sunday": {
+        "calories": 2434,
+        "proteins": 135,
+        "fats": 106,
+        "carbohydrates": 206,
+        "weight": 835,
         "breakfast": {
           "eat": {
             "products": [
@@ -1036,6 +1141,11 @@
     },
     "menu": {
       "Monday": {
+        "calories": 3403,
+        "proteins": 167,
+        "fats": 124,
+        "carbohydrates": 482,
+        "weight": 1035,
         "breakfast": {
           "eat": {
             "products": [
@@ -1080,6 +1190,11 @@
         }
       },
       "Tuesday": {
+        "calories": 3430,
+        "proteins": 176,
+        "fats": 142,
+        "carbohydrates": 429,
+        "weight": 1054,
         "breakfast": {
           "eat": {
             "products": [
@@ -1124,6 +1239,11 @@
         }
       },
       "Wednesday": {
+        "calories": 3521,
+        "proteins": 166,
+        "fats": 128,
+        "carbohydrates": 453,
+        "weight": 1024,
         "breakfast": {
           "eat": {
             "products": [
@@ -1168,6 +1288,11 @@
         }
       },
       "Thursday": {
+        "calories": 4213,
+        "proteins": 190,
+        "fats": 140,
+        "carbohydrates": 548,
+        "weight": 1503,
         "breakfast": {
           "eat": {
             "products": [
@@ -1212,6 +1337,11 @@
         }
       },
       "Friday": {
+        "calories": 2696,
+        "proteins": 121,
+        "fats": 90,
+        "carbohydrates": 350,
+        "weight": 951,
         "breakfast": {
           "eat": {
             "products": [
@@ -1256,6 +1386,11 @@
         }
       },
       "Saturday": {
+        "calories": 3202,
+        "proteins": 144,
+        "fats": 107,
+        "carbohydrates": 416,
+        "weight": 1143,
         "breakfast": {
           "eat": {
             "products": [
@@ -1300,6 +1435,11 @@
         }
       },
       "Sunday": {
+        "calories": 3208,
+        "proteins": 146,
+        "fats": 105,
+        "carbohydrates": 412,
+        "weight": 1142,
         "breakfast": {
           "eat": {
             "products": [
@@ -1381,6 +1521,11 @@
     },
     "menu": {
       "Monday": {
+        "calories": 2049,
+        "proteins": 123,
+        "fats": 90,
+        "carbohydrates": 187,
+        "weight": 607,
         "breakfast": {
           "eat": {
             "products": [
@@ -1418,6 +1563,11 @@
         }
       },
       "Tuesday": {
+        "calories": 2058,
+        "proteins": 145,
+        "fats": 89,
+        "carbohydrates": 174,
+        "weight": 612,
         "breakfast": {
           "eat": {
             "products": [
@@ -1455,6 +1605,11 @@
         }
       },
       "Wednesday": {
+        "calories": 2093,
+        "proteins": 147,
+        "fats": 89,
+        "carbohydrates": 174,
+        "weight": 662,
         "breakfast": {
           "eat": {
             "products": [
@@ -1491,6 +1646,11 @@
         }
       },
       "Thursday": {
+        "calories": 1965,
+        "proteins": 116,
+        "fats": 84,
+        "carbohydrates": 158,
+        "weight": 604,
         "breakfast": {
           "eat": {
             "products": [
@@ -1527,6 +1687,11 @@
         }
       },
       "Friday": {
+        "calories": 1803,
+        "proteins": 108,
+        "fats": 79,
+        "carbohydrates": 165,
+        "weight": 583,
         "breakfast": {
           "eat": {
             "products": [
@@ -1563,6 +1728,11 @@
         }
       },
       "Saturday": {
+        "calories": 1903,
+        "proteins": 118,
+        "fats": 89,
+        "carbohydrates": 175,
+        "weight": 593,
         "breakfast": {
           "eat": {
             "products": [
@@ -1600,6 +1770,11 @@
         }
       },
       "Sunday": {
+        "calories": 2005,
+        "proteins": 115,
+        "fats": 95,
+        "carbohydrates": 186,
+        "weight": 604,
         "breakfast": {
           "eat": {
             "products": [
@@ -1667,6 +1842,11 @@
     },
     "menu": {
       "Monday": {
+        "calories": 3553,
+        "proteins": 193,
+        "fats": 128,
+        "carbohydrates": 482,
+        "weight": 1389,
         "breakfast": {
           "eat": {
             "products": [
@@ -1699,6 +1879,11 @@
         }
       },
       "Tuesday": {
+        "calories": 3453,
+        "proteins": 183,
+        "fats": 118,
+        "carbohydrates": 462,
+        "weight": 1289,
         "breakfast": {
           "eat": {
             "products": [
@@ -1735,6 +1920,11 @@
         }
       },
       "Wednesday": {
+        "calories": 3766,
+        "proteins": 201,
+        "fats": 103,
+        "carbohydrates": 528,
+        "weight": 1206,
         "breakfast": {
           "eat": {
             "products": [
@@ -1767,6 +1957,11 @@
         }
       },
       "Thursday": {
+        "calories": 3745,
+        "proteins": 172,
+        "fats": 108,
+        "carbohydrates": 507,
+        "weight": 1255,
         "breakfast": {
           "eat": {
             "products": [
@@ -1799,6 +1994,11 @@
         }
       },
       "Friday": {
+        "calories": 3743,
+        "proteins": 176,
+        "fats": 102,
+        "carbohydrates": 503,
+        "weight": 1257,
         "breakfast": {
           "eat": {
             "products": [
@@ -1835,6 +2035,11 @@
         }
       },
       "Saturday": {
+        "calories": 3413,
+        "proteins": 170,
+        "fats": 121,
+        "carbohydrates": 405,
+        "weight": 990,
         "breakfast": {
           "eat": {
             "products": [
@@ -1871,6 +2076,11 @@
         }
       },
       "Sunday": {
+        "calories": 3707,
+        "proteins": 167,
+        "fats": 124,
+        "carbohydrates": 482,
+        "weight": 1201,
         "breakfast": {
           "eat": {
             "products": [
