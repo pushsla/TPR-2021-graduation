@@ -4,4 +4,5 @@
 *.exe
 node_modules
 venv
+criterial/try.json
 *__pycache__
