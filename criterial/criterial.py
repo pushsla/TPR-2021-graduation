@@ -113,7 +113,7 @@ class Criterial:
 if __name__ == "__main__":
 
     c1 = Criterial()
-    c1.load('criterial/data_file.json')
+    c1.load('data/menu_templates.json')
     forslavaparetocheck = c1.pareto("loss", 5, 0, ['Сливочное масло'], ['Куриная грудка'])
     forslavaoptcheck = c1.optimization(forslavaparetocheck, [0.2, 0.3, 0.5])
     print(forslavaparetocheck)
